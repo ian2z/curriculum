@@ -1,21 +1,57 @@
 @charset "UTF-8";
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: darkslategrey;
 }
 
 body {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
     font-size: 30px;
     text-align: center;
     color: darkred;
+    text-align: center;
+    color: darkblue;
 }
 
 h2 {
-    background-color: black;
-    font-size: 20px;
+    background-color: lightskyblue;
+    font-size: 24px;
+    color: darkblue;
 }
 
+h2 a:visited, h2 a:link{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer{
+    font-weight: bold;
+    font-style: italic;
+}
