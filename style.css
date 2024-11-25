@@ -29,7 +29,7 @@ h2 a:visited, h2 a:link{
     text-decoration: none;
 }
 
-h1 a:hover, h2 a:hover {
+h1 a:hover, h2:hover a {
     color: darkblue;
     text-decoration: underline;
 }
@@ -55,3 +55,4 @@ footer{
     font-weight: bold;
     font-style: italic;
 }
+
