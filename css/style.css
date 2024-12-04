@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+p {
+    line-height: 1,5rem;
+}
+
+.material-icons {
+    font-size: 1rem;
+}
+
 html {
     font-family: Arial, sans-serif;
     font-size: 17px;
@@ -16,12 +30,14 @@ h1 {
     color: darkred;
     text-align: center;
     color: darkblue;
+    font-family: Audiowide;
 }
 
 h2 {
     background-color: lightskyblue;
     font-size: 24px;
     color: darkblue;
+    border-radius:  5px;
 }
 
 h2 a:visited, h2 a:link{
